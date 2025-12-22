@@ -1,0 +1,42 @@
+# ============================================================
+# Case 4: Estuary Plume - Sediment Transport
+# ============================================================
+# A 20 km estuary with river sediment plume
+# Represents fluvial sediment dispersion dynamics
+# ============================================================
+
+scenario_name = Case 4 - Estuary Plume
+
+# Domain parameters [SI units]
+Lx = 20000.0       # Basin width [m] = 20 km
+Ly = 20000.0       # Basin height [m] = 20 km
+H = 20.0           # Water depth [m] - shallow estuary
+
+# Flow parameters
+U0 = 0.50          # Maximum velocity [m/s] - strong tidal flow
+
+# Tracer configuration
+tracer_name = Sediment
+tracer_units = mg/L
+tracer_background = 10.0    # Background turbidity
+tracer_anomaly = 100.0      # River plume concentration
+
+# Mesh configuration
+nx = 101           # Grid points in x
+ny = 101           # Grid points in y
+particles_per_cell = 4
+
+# Time integration
+total_time_days = 2.0      # Simulation duration [days]
+dt = 120.0                 # Time step [s] = 2 min
+output_interval = 100
+
+# Initial tracer position (normalized 0-1)
+tracer_center_x_frac = 0.20    # River mouth
+tracer_center_y_frac = 0.50
+tracer_sigma_frac = 0.08
+
+# Output options
+save_gif = true
+animation_frames = 100
+animation_duration = 10.0

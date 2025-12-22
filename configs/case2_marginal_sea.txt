@@ -1,0 +1,42 @@
+# ============================================================
+# Case 2: Marginal Sea - DIC Anomaly Transport
+# ============================================================
+# A 500 km semi-enclosed sea with dissolved inorganic carbon
+# Represents carbon cycle dynamics in marginal seas
+# ============================================================
+
+scenario_name = Case 2 - Marginal Sea
+
+# Domain parameters [SI units]
+Lx = 500000.0      # Basin width [m] = 500 km
+Ly = 500000.0      # Basin height [m] = 500 km
+H = 1000.0         # Water depth [m]
+
+# Flow parameters
+U0 = 0.10          # Maximum velocity [m/s]
+
+# Tracer configuration
+tracer_name = DIC
+tracer_units = μmol/kg
+tracer_background = 2000.0   # Background DIC
+tracer_anomaly = 100.0       # Anomaly from upwelling/respiration
+
+# Mesh configuration
+nx = 101           # Grid points in x
+ny = 101           # Grid points in y
+particles_per_cell = 4
+
+# Time integration
+total_time_days = 60.0     # Simulation duration [days]
+dt = 1800.0                # Time step [s] = 30 min
+output_interval = 50
+
+# Initial tracer position (normalized 0-1)
+tracer_center_x_frac = 0.25
+tracer_center_y_frac = 0.50
+tracer_sigma_frac = 0.08
+
+# Output options
+save_gif = true
+animation_frames = 100
+animation_duration = 10.0

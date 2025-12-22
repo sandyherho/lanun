@@ -1,0 +1,42 @@
+# ============================================================
+# Case 1: Coastal Embayment - Chlorophyll-a Dispersion
+# ============================================================
+# A 50 km semi-enclosed bay with phytoplankton bloom dispersal
+# Represents typical coastal upwelling/bloom dynamics
+# ============================================================
+
+scenario_name = Case 1 - Coastal Embayment
+
+# Domain parameters [SI units]
+Lx = 50000.0       # Basin width [m] = 50 km
+Ly = 50000.0       # Basin height [m] = 50 km
+H = 100.0          # Water depth [m]
+
+# Flow parameters
+U0 = 0.30          # Maximum velocity [m/s]
+
+# Tracer configuration
+tracer_name = Chlorophyll-a
+tracer_units = mg/m³
+tracer_background = 0.5    # Background concentration
+tracer_anomaly = 5.0       # Bloom peak anomaly
+
+# Mesh configuration
+nx = 101           # Grid points in x
+ny = 101           # Grid points in y
+particles_per_cell = 4     # Particles per cell side (16 total)
+
+# Time integration
+total_time_days = 7.0      # Simulation duration [days]
+dt = 300.0                 # Time step [s] = 5 min
+output_interval = 100      # Save every N steps
+
+# Initial tracer position (normalized 0-1)
+tracer_center_x_frac = 0.25    # Eastern upwelling region
+tracer_center_y_frac = 0.50    # Mid-basin
+tracer_sigma_frac = 0.10       # 10% of basin width
+
+# Output options
+save_gif = true
+animation_frames = 100
+animation_duration = 10.0

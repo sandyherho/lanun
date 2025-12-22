@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Project outputs
+outputs/
+logs/
+poetry.lock
+
+# Numba cache
+__numba_cache__/
+.numba_cache/
+
+# Test outputs
+test_outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# GIF files (except in .assets/)
+*.gif
+!.assets/*.gif
+
+# NetCDF files in root
+*.nc

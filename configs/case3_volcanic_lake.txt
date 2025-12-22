@@ -1,0 +1,42 @@
+# ============================================================
+# Case 3: Volcanic Lake - Temperature Anomaly
+# ============================================================
+# A 30 km volcanic crater lake with thermal anomaly
+# Represents hydrothermal/volcanic lake dynamics
+# ============================================================
+
+scenario_name = Case 3 - Volcanic Lake
+
+# Domain parameters [SI units]
+Lx = 30000.0       # Basin width [m] = 30 km
+Ly = 30000.0       # Basin height [m] = 30 km
+H = 500.0          # Water depth [m]
+
+# Flow parameters
+U0 = 0.05          # Maximum velocity [m/s]
+
+# Tracer configuration
+tracer_name = Temperature
+tracer_units = °C
+tracer_background = 20.0    # Ambient temperature
+tracer_anomaly = 5.0        # Hydrothermal anomaly
+
+# Mesh configuration
+nx = 81            # Grid points in x
+ny = 81            # Grid points in y
+particles_per_cell = 4
+
+# Time integration
+total_time_days = 14.0     # Simulation duration [days]
+dt = 600.0                 # Time step [s] = 10 min
+output_interval = 80
+
+# Initial tracer position (normalized 0-1)
+tracer_center_x_frac = 0.30    # Near hydrothermal vent
+tracer_center_y_frac = 0.50
+tracer_sigma_frac = 0.12
+
+# Output options
+save_gif = true
+animation_frames = 100
+animation_duration = 10.0

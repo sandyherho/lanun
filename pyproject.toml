@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "lanun"
+version = "0.0.1"
+description = "Numba-Accelerated Lagrangian Transport for Idealized Ocean Basins"
+authors = [
+    "Sandy H. S. Herho <sandy.herho@email.ucr.edu>",
+    "Nurjanna J. Trilaksono <nurjanna@itb.ac.id>",
+    "Faiz R. Fajary <faizrfajary@gmail.com>",
+    "Iwan P. Anwar <iwan.anwar@itb.ac.id>",
+    "Faruq Khadami <faruq.khadami@itb.ac.id>"
+]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/sandyherho/lanun"
+repository = "https://github.com/sandyherho/lanun"
+keywords = ["lagrangian", "transport", "oceanography", "particle-tracking", "numba", "geophysical-fluid-dynamics"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+    "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+packages = [{include = "lanun", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = ">=1.20.0"
+scipy = ">=1.7.0"
+matplotlib = ">=3.5.0"
+pandas = ">=1.3.0"
+netCDF4 = ">=1.5.0"
+Pillow = ">=9.0.0"
+tqdm = ">=4.60.0"
+numba = ">=0.56.0"
+
+[tool.poetry.group.dev.dependencies]
+black = ">=22.0.0"
+pytest = ">=7.0.0"
+pytest-cov = ">=4.0.0"
+
+[tool.poetry.scripts]
+lanun = "lanun.cli:main"
+
+[tool.black]
+line-length = 100
+target-version = ['py39', 'py310', 'py311', 'py312']
+include = '\.pyi?$'
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+filterwarnings = [
+    "ignore::numba.core.errors.NumbaDeprecationWarning",
+    "ignore::DeprecationWarning",
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
