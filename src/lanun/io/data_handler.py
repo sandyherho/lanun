@@ -3,12 +3,11 @@ Data Handler for Lagrangian Transport Simulations.
 
 Saves results to:
     - CSV: Trajectory and diagnostic metrics
-    - NetCDF: CF-1.8 compliant with oceanographic z-convention
+    - NetCDF: CF-1.8 compliant with oceanographic convention
 
 Coordinate convention (oceanographic):
     - x: Eastward [m]
     - y: Northward [m]
-    - z: Depth below surface [m] (0 at surface, positive downward)
 """
 
 import numpy as np
@@ -340,7 +339,7 @@ class DataHandler:
             nc.n_time_outputs = n_time
             
             # Authors
-            nc.authors = 'Sandy H. S. Herho, Nurjanna J. Trilaksono, Faiz R. Fajary, Iwan P. Anwar, Faruq Khadami'
+            nc.authors = 'Sandy H. S. Herho, Faiz R. Fajary, Iwan P. Anwar, Faruq Khadami'
             nc.contact = 'sandy.herho@email.ucr.edu'
             nc.license = 'MIT'
             

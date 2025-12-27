@@ -136,13 +136,8 @@ MIT © 2025 Sandy H. S. Herho, Nurjanna J. Trilaksono, Faiz R. Fajary, Iwan P. A
 ```bibtex
 @software{herho2025_lanun,
   title   = {{\texttt{lanun}: Numba-Accelerated Lagrangian Transport for Idealized Ocean Basins}},
-  author  = {Herho, Sandy H. S. and Trilaksono, Nurjanna J. and Fajary, Faiz R. and Anwar, Iwan P. and Khadami, Faruq},
-  year    = {2025},
+  author  = {Herho, Sandy H. S. and Fajary, Faiz R. and Anwar, Iwan P. and Khadami, Faruq},
+  year    = {2026},
   url     = {https://github.com/sandyherho/lanun}
 }
 ```
-
-## References
-
-- Bell, J. B., Colella, P., & Glaz, H. M. (1989). A second-order projection method for the incompressible Navier-Stokes equations. *J. Comput. Phys.*, 85(2), 257-283.
-- Morra, G. (2018). *Pythonic Geodynamics*. Springer. Chapter 7: Lagrangian Transport.

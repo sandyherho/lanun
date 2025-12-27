@@ -29,7 +29,7 @@ from .utils.timer import Timer
 def print_header():
     """Print ASCII art header."""
     print("\n" + "=" * 70)
-    print(" " * 12 + "lanun: Lagrangian Transport for Ocean Basins")
+    print(" " * 12 + "lanun: 2D Lagrangian Transport for Ocean Basins")
     print(" " * 25 + "Version 0.0.1")
     print("=" * 70)
     print("\n  Numba-Accelerated Particle-in-Cell Transport Simulation")

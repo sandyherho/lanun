@@ -25,16 +25,15 @@ Example:
 
 Authors:
     Sandy H. S. Herho <sandy.herho@email.ucr.edu>
-    Nurjanna J. Trilaksono <nurjanna@itb.ac.id>
-    Faiz R. Fajary <faizrfajary@gmail.com>
-    Iwan P. Anwar <iwan.anwar@itb.ac.id>
-    Faruq Khadami <faruq.khadami@itb.ac.id>
+    Faiz R. Fajary <faizrohman@itb.ac.id>
+    Iwan P. Anwar <iwanpanwar@itb.ac.id>
+    Faruq Khadami <fkhadami@itb.ac.id>
 
 License: MIT
 """
 
 __version__ = "0.0.1"
-__author__ = "Sandy H. S. Herho, Nurjanna J. Trilaksono, Faiz R. Fajary, Iwan P. Anwar, Faruq Khadami"
+__author__ = "Sandy H. S. Herho, Faiz R. Fajary, Iwan P. Anwar, Faruq Khadami"
 __email__ = "sandy.herho@email.ucr.edu"
 __license__ = "MIT"
 

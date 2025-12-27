@@ -1,13 +1,12 @@
 [tool.poetry]
 name = "lanun"
 version = "0.0.1"
-description = "Numba-Accelerated Lagrangian Transport for Idealized Ocean Basins"
+description = "Numba-Accelerated 2D Lagrangian Transport for Idealized Ocean Basins"
 authors = [
     "Sandy H. S. Herho <sandy.herho@email.ucr.edu>",
-    "Nurjanna J. Trilaksono <nurjanna@itb.ac.id>",
-    "Faiz R. Fajary <faizrfajary@gmail.com>",
-    "Iwan P. Anwar <iwan.anwar@itb.ac.id>",
-    "Faruq Khadami <faruq.khadami@itb.ac.id>"
+    "Faiz R. Fajary <faizrohman@itb.ac.id>",
+    "Iwan P. Anwar <iwanpanwar@itb.ac.id>",
+    "Faruq Khadami <fkhadami@itb.ac.id>"
 ]
 license = "MIT"
 readme = "README.md"
