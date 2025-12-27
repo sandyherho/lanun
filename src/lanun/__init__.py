@@ -1,21 +1,24 @@
 """
-lanun: Numba-Accelerated Lagrangian Transport for Idealized Ocean Basins
+lanun: 2D Lagrangian Particle Transport for Idealized Ocean Basins
 
-A high-performance Python library for simulating Lagrangian particle transport
-in semi-enclosed ocean basins using Bell's incompressible flow.
+A Numba-accelerated Python library for simulating two-dimensional Lagrangian
+particle transport in semi-enclosed ocean basins using Bell's incompressible flow.
 
-The velocity field represents wind-driven recirculation:
+The velocity field represents wind-driven recirculation in a closed basin:
+
     u = -(U₀/2) sin²(πx/L) sin(2πy/L)
     v =  (U₀/2) sin²(πy/L) sin(2πx/L)
+
+This flow is analytically incompressible (∇·v = 0) with zero velocity at all
+domain boundaries, making it ideal for studying chaotic advection and stirring.
 
 Features:
     - Numba JIT compilation for fast particle advection
     - Parallel execution with prange
     - Bilinear interpolation (partition of unity)
     - Midpoint (RK2) time integration
-    - CF-compliant NetCDF output with oceanographic conventions
+    - CF-compliant NetCDF output
     - Comprehensive Lagrangian diagnostics
-    - Beautiful dark-themed visualizations
 
 Example:
     >>> from lanun import BasinSystem, LagrangianSolver
@@ -23,9 +26,12 @@ Example:
     >>> solver = LagrangianSolver(nx=101, ny=101)
     >>> result = solver.solve(basin, total_time=7*86400, dt=300)
 
+Note:
+    This is a 2D idealized model using a prescribed velocity field.
+    It does not solve the primitive equations.
+
 Authors:
     Sandy H. S. Herho <sandy.herho@email.ucr.edu>
-    Faiz R. Fajary <faizrohman@itb.ac.id>
     Iwan P. Anwar <iwanpanwar@itb.ac.id>
     Faruq Khadami <fkhadami@itb.ac.id>
 

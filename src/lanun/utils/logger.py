@@ -127,8 +127,10 @@ class SimulationLogger:
         self.info("CONSERVATION:")
         self.info(f"  Mass error (relative): {diagnostics.get('mass_error_relative', np.nan):.2e}")
         
-        if 'area_error_relative' in diagnostics:
-            self.info(f"  Area error (relative): {diagnostics.get('area_error_relative', np.nan):.2e}")
+        # Hull spreading ratio (formerly "area error") - this measures how much
+        # the convex hull has expanded due to stirring, not a conservation error
+        if 'hull_area_ratio' in diagnostics:
+            self.info(f"  Hull spreading ratio: {diagnostics.get('hull_area_ratio', np.nan):.2f}")
         
         self.info("")
         self.info("MIXING:")

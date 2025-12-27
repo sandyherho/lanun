@@ -3,7 +3,7 @@
 .PHONY: install dev test clean run-all run-case1 run-case2 run-case3 run-case4 help
 
 help:
-	@echo "lanun - Lagrangian Transport for Idealized Ocean Basins"
+	@echo "lanun - 2D Lagrangian Transport for Idealized Ocean Basins"
 	@echo ""
 	@echo "Installation:"
 	@echo "  make install     - Install package with pip"
@@ -27,13 +27,13 @@ install:
 	pip install .
 
 dev:
-	poetry install
+	poetry install --with dev
 
 test:
 	poetry run pytest tests/ -v
 
 test-cov:
-	poetry run pytest tests/ -v --cov=src/lanun --cov-report=term-missing
+	poetry run pytest tests/ -v --cov=lanun --cov-report=term-missing
 
 run-all:
 	lanun --all

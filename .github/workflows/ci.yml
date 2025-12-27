@@ -16,7 +16,6 @@ jobs:
         os: [ubuntu-latest, macos-latest, windows-latest]
         python-version: ["3.9", "3.10", "3.11", "3.12"]
         exclude:
-          # Reduce matrix size for faster CI
           - os: macos-latest
             python-version: "3.9"
           - os: windows-latest
@@ -58,7 +57,7 @@ jobs:
 
     - name: Run tests
       run: |
-        poetry run pytest tests/ -v --tb=short -x
+        poetry run pytest tests/ -v --tb=short
 
     - name: Run tests with coverage
       if: matrix.os == 'ubuntu-latest' && matrix.python-version == '3.11'
