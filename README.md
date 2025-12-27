@@ -207,12 +207,6 @@ This is an **idealized 2D model** with the following simplifications:
 
 For realistic ocean applications, consider [OceanParcels](https://oceanparcels.org/), [OpenDrift](https://opendrift.github.io/), or similar operational Lagrangian tools.
 
-## References
-
-- Bell, J. B., Colella, P., & Glaz, H. M. (1989). A second-order projection method for the incompressible Navier-Stokes equations. *Journal of Computational Physics*, 85(2), 257-283.
-- Ottino, J. M. (1989). *The Kinematics of Mixing: Stretching, Chaos, and Transport*. Cambridge University Press.
-- Haller, G. (2015). Lagrangian coherent structures. *Annual Review of Fluid Mechanics*, 47, 137-162.
-
 ## Authors
 
 - [Sandy H. S. Herho](https://github.com/sandyherho) (SUNY Binghamton)
