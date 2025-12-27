@@ -339,15 +339,9 @@ class DataHandler:
             nc.n_time_outputs = n_time
             
             # Authors
-            nc.authors = 'Sandy H. S. Herho, Faiz R. Fajary, Iwan P. Anwar, Faruq Khadami'
+            nc.authors = 'Sandy H. S. Herho, Iwan P. Anwar, Faruq Khadami'
             nc.contact = 'sandy.herho@email.ucr.edu'
             nc.license = 'MIT'
-            
-            # References
-            nc.references = (
-                'Bell et al. (1989). J. Comput. Phys. 85(2):257-283. '
-                'Morra (2018). Pythonic Geodynamics, Ch. 7.'
-            )
     
     @staticmethod
     def save_comparison_csv(
