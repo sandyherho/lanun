@@ -17,7 +17,7 @@ Numba-accelerated Python library for simulating 2D Lagrangian particle transport
 
 
 <p align="center">
-  <img src="https://github.com/sandyherho/lanun/blob/main/.assets/anim.gif" alt="chl_a_transport" width="450">
+  <img src="https://github.com/sandyherho/lanun/blob/main/.assets/coastal_embayment_animation.gif" alt="chl_a_transport" width="600">
 </p>
 
 
