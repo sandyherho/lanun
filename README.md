@@ -20,7 +20,7 @@ A Numba-accelerated Python library for simulating **two-dimensional** Lagrangian
 > The library takes its name from the *Lanun* (also Iranun or Illanun), maritime peoples of the Sulu and Celebes Seas. Historically, Lanun maritime activity (c. 1768–1848) constituted a sophisticated political economy centered on the Sultanate of Sulu rather than simple brigandage. In a region abundant in marine resources but critically short of labor, Iranun and Balangingi fleets operated as state-sponsored forces conducting systematic seasonal expeditions (*mangayau*) to acquire manpower for processing trepang, pearls, and other sea products bound for the China trade. Revenue from this commerce funded the Sultanate's acquisition of Western armaments. The European designation of "piracy" was largely a 19th-century colonial construct employed by British and Dutch authorities to criminalize traditional Malay maritime sovereignty and toll collection rights, thereby delegitimizing indigenous statecraft to facilitate the establishment of European trade monopolies. This library honors their legacy as accomplished navigators with deep understanding of regional ocean circulation.
 
 <p align="center">
-  <img src="https://github.com/sandyherho/lanun/blob/main/.assets/anim.gif" alt="Chlorophyll-a transport simulation" width="500">
+  <img src="https://github.com/sandyherho/lanun/blob/main/.assets/anim.gif" alt="Chlorophyll-a transport simulation" width="600">
 </p>
 
 ## Overview
@@ -215,9 +215,9 @@ For realistic ocean applications, consider [OceanParcels](https://oceanparcels.o
 
 ## Authors
 
-- [Sandy H. S. Herho](https://github.com/sandyherho) (University of California, Riverside)
-- [Iwan P. Anwar](mailto:iwanpanwar@itb.ac.id) (Institut Teknologi Bandung)
-- [Faruq Khadami](mailto:fkhadami@itb.ac.id) (Institut Teknologi Bandung)
+- [Sandy H. S. Herho](https://github.com/sandyherho) (SUNY Binghamton)
+- [Iwan P. Anwar](mailto:iwanpanwar@itb.ac.id) (ITB)
+- [Faruq Khadami](mailto:fkhadami@itb.ac.id) (ITB)
 
 ## License
 
