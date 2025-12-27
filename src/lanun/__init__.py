@@ -33,7 +33,7 @@ License: MIT
 """
 
 __version__ = "0.0.1"
-__author__ = "Sandy H. S. Herho, Faiz R. Fajary, Iwan P. Anwar, Faruq Khadami"
+__author__ = "Sandy H. S. Herho, Iwan P. Anwar, Faruq Khadami"
 __email__ = "sandy.herho@email.ucr.edu"
 __license__ = "MIT"
 

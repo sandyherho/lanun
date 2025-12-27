@@ -129,14 +129,14 @@ Following oceanographic standards:
 
 ## License
 
-MIT © 2025 Sandy H. S. Herho, Nurjanna J. Trilaksono, Faiz R. Fajary, Iwan P. Anwar, Faruq Khadami
+MIT © 2025 Sandy H. S. Herho, Iwan P. Anwar, Faruq Khadami
 
 ## Citation
 
 ```bibtex
-@software{herho2025_lanun,
+@software{herho2026_lanun,
   title   = {{\texttt{lanun}: Numba-Accelerated Lagrangian Transport for Idealized Ocean Basins}},
-  author  = {Herho, Sandy H. S. and Fajary, Faiz R. and Anwar, Iwan P. and Khadami, Faruq},
+  author  = {Herho, Sandy H. S. and Anwar, Iwan P. and Khadami, Faruq},
   year    = {2026},
   url     = {https://github.com/sandyherho/lanun}
 }

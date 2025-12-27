@@ -4,7 +4,6 @@ version = "0.0.1"
 description = "Numba-Accelerated 2D Lagrangian Transport for Idealized Ocean Basins"
 authors = [
     "Sandy H. S. Herho <sandy.herho@email.ucr.edu>",
-    "Faiz R. Fajary <faizrohman@itb.ac.id>",
     "Iwan P. Anwar <iwanpanwar@itb.ac.id>",
     "Faruq Khadami <fkhadami@itb.ac.id>"
 ]
