@@ -1,13 +1,23 @@
 # `lanun`: 2D Lagrangian Particle Transport for Idealized Ocean Basins
 
+[![PyPI version](https://img.shields.io/pypi/v/lanun.svg)](https://pypi.org/project/lanun/)
 [![CI](https://github.com/sandyherho/lanun/actions/workflows/ci.yml/badge.svg)](https://github.com/sandyherho/lanun/actions/workflows/ci.yml)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![NumPy](https://img.shields.io/badge/NumPy-%23013243.svg?logo=numpy&logoColor=white)](https://numpy.org/)
+[![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?logo=scipy&logoColor=white)](https://scipy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
+[![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![netCDF4](https://img.shields.io/badge/netCDF4-%23004B87.svg)](https://unidata.github.io/netcdf4-python/)
+[![Numba](https://img.shields.io/badge/Numba-%2300A3E0.svg?logo=numba&logoColor=white)](https://numba.pydata.org/)
+[![Pillow](https://img.shields.io/badge/Pillow-%23000000.svg)](https://python-pillow.org/)
+[![tqdm](https://img.shields.io/badge/tqdm-%23FFC107.svg)](https://tqdm.github.io/)
+
 
 A Numba-accelerated Python library for simulating **two-dimensional** Lagrangian particle transport in idealized semi-enclosed ocean basins using Bell's incompressible flow field. This is an idealized 2D model intended for process studies and educational purposes, not operational forecasting.
 
-> **On the name:** The library takes its name from the *Lanun* (also Iranun or Illanun), maritime peoples of the Sulu and Celebes Seas. Historically, Lanun maritime activity (c. 1768–1848) constituted a sophisticated political economy centered on the Sultanate of Sulu rather than simple brigandage. In a region abundant in marine resources but critically short of labor, Iranun and Balangingi fleets operated as state-sponsored forces conducting systematic seasonal expeditions (*mangayau*) to acquire manpower for processing trepang, pearls, and other sea products bound for the China trade. Revenue from this commerce funded the Sultanate's acquisition of Western armaments. The European designation of "piracy" was largely a 19th-century colonial construct employed by British and Dutch authorities to criminalize traditional Malay maritime sovereignty and toll collection rights, thereby delegitimizing indigenous statecraft to facilitate the establishment of European trade monopolies. This library honors their legacy as accomplished navigators with deep understanding of regional ocean circulation.
+> The library takes its name from the *Lanun* (also Iranun or Illanun), maritime peoples of the Sulu and Celebes Seas. Historically, Lanun maritime activity (c. 1768–1848) constituted a sophisticated political economy centered on the Sultanate of Sulu rather than simple brigandage. In a region abundant in marine resources but critically short of labor, Iranun and Balangingi fleets operated as state-sponsored forces conducting systematic seasonal expeditions (*mangayau*) to acquire manpower for processing trepang, pearls, and other sea products bound for the China trade. Revenue from this commerce funded the Sultanate's acquisition of Western armaments. The European designation of "piracy" was largely a 19th-century colonial construct employed by British and Dutch authorities to criminalize traditional Malay maritime sovereignty and toll collection rights, thereby delegitimizing indigenous statecraft to facilitate the establishment of European trade monopolies. This library honors their legacy as accomplished navigators with deep understanding of regional ocean circulation.
 
 <p align="center">
   <img src="https://github.com/sandyherho/lanun/blob/main/.assets/anim.gif" alt="Chlorophyll-a transport simulation" width="500">
