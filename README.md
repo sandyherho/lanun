@@ -1,5 +1,6 @@
 # `lanun`: 2D Lagrangian Particle Transport for Idealized Ocean Basins
 
+[![DOI](https://zenodo.org/badge/1120895962.svg)](https://doi.org/10.5281/zenodo.18070973)
 [![PyPI version](https://img.shields.io/pypi/v/lanun.svg)](https://pypi.org/project/lanun/)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
