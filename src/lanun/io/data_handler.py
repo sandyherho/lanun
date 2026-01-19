@@ -339,8 +339,8 @@ class DataHandler:
             nc.n_time_outputs = n_time
             
             # Authors
-            nc.authors = 'Sandy H. S. Herho, Iwan P. Anwar, Faruq Khadami'
-            nc.contact = 'sandy.herho@email.ucr.edu'
+            nc.authors = 'Sandy H. S. Herho, Faruq Khadami, Iwan P. Anwar, Dasapta E. Irawan'
+            nc.contact = 'sandy.herho@ronininstitute.org'
             nc.license = 'MIT'
     
     @staticmethod

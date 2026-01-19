@@ -31,16 +31,17 @@ Note:
     It does not solve the primitive equations.
 
 Authors:
-    Sandy H. S. Herho <sandy.herho@email.ucr.edu>
-    Iwan P. Anwar <iwanpanwar@itb.ac.id>
+    Sandy H. S. Herho <sandy.herho@ronininstitute.org>
     Faruq Khadami <fkhadami@itb.ac.id>
+    Iwan P. Anwar <iwanpanwar@itb.ac.id>
+    Dasapta E. Irawan <dasaptaerwin@itb.ac.id>
 
 License: MIT
 """
 
-__version__ = "0.0.1"
-__author__ = "Sandy H. S. Herho, Iwan P. Anwar, Faruq Khadami"
-__email__ = "sandy.herho@email.ucr.edu"
+__version__ = "0.0.2"
+__author__ = "Sandy H. S. Herho, Faruq Khadami, Iwan P. Anwar, Dasapta E. Irawan"
+__email__ = "sandy.herho@ronininstitute.org"
 __license__ = "MIT"
 
 from .core.velocity import BasinSystem, VelocityField

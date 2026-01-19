@@ -15,7 +15,7 @@
 [![tqdm](https://img.shields.io/badge/tqdm-%23FFC107.svg)](https://tqdm.github.io/)
 
 
-A Numba-accelerated Python library for simulating **two-dimensional** Lagrangian particle transport in idealized semi-enclosed ocean basins using Bell's incompressible flow field. This is an idealized 2D model intended for process studies and educational purposes, not operational forecasting.
+A Numba-accelerated Python library for simulating 2D Lagrangian particle transport in idealized semi-enclosed ocean basins using Bell's incompressible flow field. This is an idealized 2D model intended for process studies and educational purposes, not operational forecasting.
 
 > The library takes its name from the *Lanun* (also Iranun or Illanun), maritime peoples of the Sulu and Celebes Seas. Historically, Lanun maritime activity (c. 1768–1848) constituted a sophisticated political economy centered on the Sultanate of Sulu rather than simple brigandage. In a region abundant in marine resources but critically short of labor, Iranun and Balangingi fleets operated as state-sponsored forces conducting systematic seasonal expeditions (*mangayau*) to acquire manpower for processing trepang, pearls, and other sea products bound for the China trade. Revenue from this commerce funded the Sultanate's acquisition of Western armaments. The European designation of "piracy" was largely a 19th-century colonial construct employed by British and Dutch authorities to criminalize traditional Malay maritime sovereignty and toll collection rights, thereby delegitimizing indigenous statecraft to facilitate the establishment of European trade monopolies. This library honors their legacy as accomplished navigators with deep understanding of regional ocean circulation.
 
@@ -209,9 +209,10 @@ For realistic ocean applications, consider [OceanParcels](https://oceanparcels.o
 
 ## Authors
 
-- [Sandy H. S. Herho](https://github.com/sandyherho) (SUNY Binghamton)
+- [Sandy H. S. Herho](mailto:sandy.herho@ronininstitute.org) (Ronin Institute)
 - [Iwan P. Anwar](mailto:iwanpanwar@itb.ac.id) (ITB)
 - [Faruq Khadami](mailto:fkhadami@itb.ac.id) (ITB)
+- [Dasapta E. Irawan](mailto:dasaptaerwin@itb.ac.id) (ITB) 
 
 ## License
 
@@ -221,10 +222,10 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 ```bibtex
 @software{herho2026lanun,
-  author    = {Herho, Sandy H. S. and Anwar, Iwan P. and Khadami, Faruq},
+  author    = {Herho, Sandy H. S. and Khadami, Faruq and Anwar, Iwan P. and Irawan, Dasapta E.},
   title     = {{lanun}: {2D} {L}agrangian Particle Transport for Idealized Ocean Basins},
   year      = {2026},
   url       = {https://github.com/sandyherho/lanun},
-  version   = {0.0.1}
+  version   = {0.0.2}
 }
 ```
